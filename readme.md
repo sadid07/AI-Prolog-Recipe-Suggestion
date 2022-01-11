@@ -1,1 +1,6 @@
-# CS152 Group Project - LBA
+# Artificial Intelligence - Expert System Design
+created an Expert System Design for Minerva students that will assist them to prepare their meals during the COVID outbreak. We approached the solution by creating our askables, collecting data, preparing the logic of the expert system, implementing the PwSWIP code, and finally showcasing three test cases, as required by the main and extension prompts. In the following paragraphs, we are sharing our approach to each of the segments mentioned above.
+
+# Creating askables for the Expert System [ #rightproblem ]
+
+We will be using the expert system example provided in the instructions, of helping students find suitable recipes so they are incentivized to eat inside and lower risk of infection. The expert system will function on the following 8 askables: "How much time does the student have to make the meal?", "How much effort in cooking do you want?", "What type of meal do you want? (Appetizer, Main, Dessert)" "Do you have any dietary goals? (Pleasure, Weight Loss, Weight Gain, etc...", "Which cuisine do you prefer?", "Which diet do you prefer?", "Ingredients to look for?", "How many calories are you aiming for?". Some of these askables are dependent on each other. For example, if the person has a specific diet, that will influence the available options for asking what their preferred cuisine is because we may not have their diet available in all cuisines.
